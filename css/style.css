@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Open+Sans&family=Roboto&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(rgb(136, 231, 255), rgb(21, 121, 253));
+}
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  color: aliceblue;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+header ul li a:hover {
+  background-color: aliceblue;
+  color: black;
+  border-radius: 12px;
+}
