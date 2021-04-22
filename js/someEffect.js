@@ -56,12 +56,13 @@ $(function () {
   var logoAni = anime({
     targets: ".lgContainer .lines path",
     strokeDashoffset: [anime.setDashoffset, 0],
-    easing: "easeInOutSine",
+    easing: "easeInExpo",
     duration: 1500,
     delay: function (el, i) {
       return i * 250;
     },
     direction: "alternate",
     loop: true,
+    endDelay: 1000,
   });
 });

@@ -132,7 +132,7 @@ header ul li a #contactIco {
 .pageContainer .titleContainer span.active {
   text-transform: uppercase;
   font-weight: 900;
-  color: rgb(27, 226, 209);
+  color: #1be2d1;
   text-shadow: 0.1vw 0vw 0.25vw #d8fffd, 0.2vw 0vw 0.25vw #d8feff,
     0.1vw 0vw 0vw #57edf2, 0.2vw 0vw 0vw #57f2f2, 0.1vw 0vw 0.1vw #57f2f2,
     0.2vw 0vw 0.1vw #57f2f2, 0.1vw 0vw 2vw #57f2dd, 0.2vw 0vw 2vw #57f2dd,
@@ -148,9 +148,21 @@ header ul li a #contactIco {
 .sideContainer .logoimg {
   object-fit: contain;
 }
-.sideContainer .logoimg g {
-  stroke: #0be5d3;
+.sideContainer .logoimg g.lines {
+  stroke: #56f5e8;
+  stroke-width: 4px;
 }
+.sideContainer .logoimg path {
+  object-fit: contain;
+  fill: #1be2d1;
+  fill-opacity: 0%;
+  text-shadow: 0.1vw 0vw 0.25vw #d8fffd, 0.2vw 0vw 0.25vw #d8feff,
+    0.1vw 0vw 0vw #57edf2, 0.2vw 0vw 0vw #57f2f2, 0.1vw 0vw 0.1vw #57f2f2,
+    0.2vw 0vw 0.1vw #57f2f2, 0.1vw 0vw 2vw #57f2dd, 0.2vw 0vw 2vw #57f2dd,
+    0.1vw 0vw 1vw #0be5d3, 0.2vw 0vw 1vw #0be5da, 0.1vw 0vw 5vw #0be5d3,
+    0.2vw 0vw 20vw #0be5da, 0.1vw 0vw 10vw #0be5c1, 0.2vw 0vw 30vw #0be5d3;
+}
+
 .sideContainer .logoimg {
   width: 540px;
   height: 540px;
