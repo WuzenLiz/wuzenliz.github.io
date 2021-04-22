@@ -115,6 +115,11 @@ header ul li a #contactIco {
     height: 40%;
   }
   header ul {
+  }
+  header .aGreeting {
+    display: none;
+  }
+  header ul li a:hover span {
     display: none;
   }
 }
