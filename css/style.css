@@ -30,6 +30,11 @@ header .aGreeting {
   font-size: 1.5em;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: rgb(27, 226, 226);
+  text-shadow: 0.1vw 0vw 0vw #57b9f2, 0.2vw 0vw 0vw #57b9f2,
+    0.1vw 0vw 0.1vw #57c1f2, 0.2vw 0vw 0.1vw #57b9f2, 0.1vw 0vw 2vw #57c6f2,
+    0.2vw 0vw 2vw #57c1f2, 0.1vw 0vw 1vw #0bb2e5, 0.2vw 0vw 1vw #0ba7e5,
+    0.1vw 0vw 5vw #0ba7e5;
 }
 header ul {
   display: flex;
@@ -62,10 +67,14 @@ header ul li a:hover span {
   display: flex;
 }
 header ul li a:hover {
-  background-color: aliceblue;
-  color: black;
   border-radius: 20px;
   transition: 250ms;
+  color: rgb(27, 226, 226);
+  text-shadow: 0.1vw 0vw 0.25vw #d8f1ff, 0.2vw 0vw 0.25vw #d8f1ff,
+    0.1vw 0vw 0vw #57b9f2, 0.2vw 0vw 0vw #57b9f2, 0.1vw 0vw 0.1vw #57c1f2,
+    0.2vw 0vw 0.1vw #57b9f2, 0.1vw 0vw 2vw #57c6f2, 0.2vw 0vw 2vw #57c1f2,
+    0.1vw 0vw 1vw #0bb2e5, 0.2vw 0vw 1vw #0ba7e5, 0.1vw 0vw 5vw #0ba7e5,
+    0.2vw 0vw 20vw #0bb9e5, 0.1vw 0vw 10vw #0b95e5, 0.2vw 0vw 30vw #0ba7e5;
 }
 header ul li a #contactIco {
   padding-right: 5px;
