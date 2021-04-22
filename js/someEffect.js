@@ -2,9 +2,15 @@ $(function () {
   var scene = document.getElementById("scene");
   var parallaxInstance = new Parallax(scene, {
     relativeInput: true,
+    // hoverOnly: true,
   });
   var subScene = document.getElementById("lines");
   var parallaxInstance2 = new Parallax(subScene, {
+    relativeInput: true,
+    hoverOnly: true,
+  });
+  var textScene = document.getElementById("infName");
+  var parallaxInstance3 = new Parallax(textScene, {
     relativeInput: true,
     hoverOnly: true,
   });
@@ -62,13 +68,13 @@ $(function () {
     targets: ".lgContainer .lines path",
     strokeDashoffset: [anime.setDashoffset, 0],
     easing: "easeInExpo",
-    duration: 1500,
+    duration: 2500,
     delay: function (el, i) {
       return i * 250;
     },
     direction: "alternate",
     loop: true,
-    endDelay: 1000,
+    endDelay: 5000,
   });
   var infoAni = anime({
     targets: document.getElementById("infName"),
