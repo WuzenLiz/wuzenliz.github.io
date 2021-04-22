@@ -2,6 +2,7 @@ $(function () {
   var scene = document.getElementById("scene");
   var parallaxInstance = new Parallax(scene, {
     relativeInput: true,
+    hoverOnly: true,
   });
   var typed = new Typed("#typed", {
     strings: [
@@ -64,5 +65,13 @@ $(function () {
     direction: "alternate",
     loop: true,
     endDelay: 1000,
+  });
+  var infElem = document.getElementById("infoContainer");
+  var infoAni = anime({
+    targets: infElem,
+    delay: 500,
+    translateX: [-1000, 0],
+    direction: "normal",
+    easing: "easeOutElastic(1, .8)",
   });
 });
