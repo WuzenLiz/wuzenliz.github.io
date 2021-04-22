@@ -88,13 +88,14 @@ header ul li a #contactIco {
   justify-content: space-between;
 }
 .pageContainer {
-  padding: 30px 100px;
+  padding: 0px 100px 30px 100px;
   align-items: center;
   justify-content: center;
 }
 
 .pageContainer .infoContainer {
   max-width: 30vw;
+  padding-top: 30px;
 }
 .pageContainer .infoContainer h1,
 .pageContainer .infoContainer h1 span {
