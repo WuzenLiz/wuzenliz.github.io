@@ -143,6 +143,7 @@ header ul li a #contactIco {
   text-transform: uppercase;
   font-weight: 900;
   color: #1be2d1;
+  padding: 10px;
   text-shadow: 0.1vw 0vw 0.25vw #d8fffd, 0.2vw 0vw 0.25vw #d8feff,
     0.1vw 0vw 0vw #57edf2, 0.2vw 0vw 0vw #57f2f2, 0.1vw 0vw 0.1vw #57f2f2,
     0.2vw 0vw 0.1vw #57f2f2, 0.1vw 0vw 2vw #57f2dd, 0.2vw 0vw 2vw #57f2dd,
