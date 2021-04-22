@@ -74,6 +74,9 @@ header ul li a #contactIco {
 .theBegin {
   margin: 0;
   padding: 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
 .pageContainer {
   padding: 30px 100px;
@@ -135,4 +138,27 @@ header ul li a #contactIco {
     0.2vw 0vw 0.1vw #57f2f2, 0.1vw 0vw 2vw #57f2dd, 0.2vw 0vw 2vw #57f2dd,
     0.1vw 0vw 1vw #0be5d3, 0.2vw 0vw 1vw #0be5da, 0.1vw 0vw 5vw #0be5d3,
     0.2vw 0vw 20vw #0be5da, 0.1vw 0vw 10vw #0be5c1, 0.2vw 0vw 30vw #0be5d3;
+}
+.sideContainer {
+  display: flex;
+  align-items: center;
+  max-width: 70vw;
+}
+.sideContainer .logoimg {
+  align-self: center;
+}
+.sideContainer .logoimg:nth-child(1) {
+  width: 540px;
+  height: 540px;
+  opacity: 50%;
+}
+.sideContainer .logoimg:nth-child(2) {
+  width: 525px;
+  height: 525px;
+  opacity: 50%;
+}
+.sideContainer .logoimg:nth-child(3) {
+  width: 475px;
+  height: 475px;
+  opacity: 90%;
 }

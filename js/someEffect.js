@@ -1,4 +1,8 @@
 $(function () {
+  var scene = document.getElementById("scene");
+  var parallaxInstance = new Parallax(scene, {
+    relativeInput: true,
+  });
   var typed = new Typed("#typed", {
     strings: [
       "你好!",
@@ -23,8 +27,6 @@ $(function () {
     loop: true,
     backDelay: 1500,
   });
-  var tHover = document.querySelector(".titleContainer span:hover");
-  console.log(tHover);
   var colRGB = anime
     .timeline({
       Delay: 1000,
@@ -40,12 +42,15 @@ $(function () {
         color: "rgb(255,255,255)",
       },
       0
-    )
-    .add(
-      {
-        targets: tHover,
-        color: "rgb(255,255,255)",
+    );
+  $(".titleContainer")
+    .find("span")
+    .hover(
+      function () {
+        $(this).addClass("hover");
       },
-      0
+      function () {
+        $(this).removeClass("hover");
+      }
     );
 });
