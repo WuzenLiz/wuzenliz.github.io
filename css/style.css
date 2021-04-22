@@ -140,25 +140,19 @@ header ul li a #contactIco {
     0.2vw 0vw 20vw #0be5da, 0.1vw 0vw 10vw #0be5c1, 0.2vw 0vw 30vw #0be5d3;
 }
 .sideContainer {
-  display: flex;
-  align-items: center;
+  display: inline-block;
+  text-align: center;
   max-width: 70vw;
+  max-height: 100vh;
 }
 .sideContainer .logoimg {
-  align-self: center;
+  object-fit: contain;
 }
-.sideContainer .logoimg:nth-child(1) {
+.sideContainer .logoimg g {
+  stroke: #0be5d3;
+}
+.sideContainer .logoimg {
   width: 540px;
   height: 540px;
-  opacity: 50%;
-}
-.sideContainer .logoimg:nth-child(2) {
-  width: 525px;
-  height: 525px;
-  opacity: 50%;
-}
-.sideContainer .logoimg:nth-child(3) {
-  width: 475px;
-  height: 475px;
-  opacity: 90%;
+  opacity: 100%;
 }
