@@ -10,7 +10,7 @@
 }
 body {
   min-height: 100vh;
-  background: linear-gradient(rgb(22, 23, 36), rgb(12, 28, 49));
+  background: linear-gradient(#241616, #0c1c31);
 }
 header {
   position: relative;
@@ -103,7 +103,7 @@ header ul li a #contactIco {
   padding-left: 20px;
 }
 .pageContainer .infoContainer h1 span:nth-child(4) {
-  color: rgb(27, 179, 226);
+  color: rgb(27, 226, 226);
   text-shadow: 0.1vw 0vw 0.25vw #d8f1ff, 0.2vw 0vw 0.25vw #d8f1ff,
     0.1vw 0vw 0vw #57b9f2, 0.2vw 0vw 0vw #57b9f2, 0.1vw 0vw 0.1vw #57c1f2,
     0.2vw 0vw 0.1vw #57b9f2, 0.1vw 0vw 2vw #57c6f2, 0.2vw 0vw 2vw #57c1f2,

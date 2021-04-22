@@ -23,12 +23,29 @@ $(function () {
     loop: true,
     backDelay: 1500,
   });
+  var tHover = document.querySelector(".titleContainer span:hover");
+  console.log(tHover);
   var colRGB = anime
     .timeline({
-      endDelay: 1000,
-      easing: "easeInOutQuad",
+      Delay: 1000,
+      duration: 2000,
+      easing: "linear",
       direction: "alternate",
       loop: true,
     })
-    .add({ targets: ".colRGB span", color: "rgb(255,255,255)" }, 0);
+    .add({ targets: ".colRGB span", color: "rgb(255,255,255)" }, 0)
+    .add(
+      {
+        targets: ".titleContainer span.active",
+        color: "rgb(255,255,255)",
+      },
+      0
+    )
+    .add(
+      {
+        targets: tHover,
+        color: "rgb(255,255,255)",
+      },
+      0
+    );
 });

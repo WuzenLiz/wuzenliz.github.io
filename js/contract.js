@@ -1,6 +1,5 @@
 $(function () {
   $.getJSON("./data/contact.json", function (data) {
-    console.log(data);
     $.each(data, function (index, value) {
       $("#contactCon").append(
         '<li><a href="' +
