@@ -127,6 +127,7 @@ header ul li a #contactIco {
 
 .pageContainer .titleContainer span:hover,
 .pageContainer .titleContainer span.active {
+  text-transform: uppercase;
   font-weight: 900;
   color: rgb(27, 226, 209);
   text-shadow: 0.1vw 0vw 0.25vw #d8fffd, 0.2vw 0vw 0.25vw #d8feff,
