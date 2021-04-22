@@ -23,4 +23,12 @@ $(function () {
     loop: true,
     backDelay: 1500,
   });
+  var colRGB = anime
+    .timeline({
+      endDelay: 1000,
+      easing: "easeInOutQuad",
+      direction: "alternate",
+      loop: true,
+    })
+    .add({ targets: ".colRGB span", color: "rgb(255,255,255)" }, 0);
 });
