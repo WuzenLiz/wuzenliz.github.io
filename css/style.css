@@ -75,17 +75,17 @@ header ul li a #contactIco {
   margin: 0;
   padding: 0;
 }
-.firstpage {
+.pageContainer {
   padding: 30px 100px;
   align-items: center;
   justify-content: center;
 }
 
-.firstpage .infoContainer {
+.pageContainer .infoContainer {
   max-width: 30vw;
 }
-.firstpage .infoContainer h1,
-.firstpage .infoContainer h1 span {
+.pageContainer .infoContainer h1,
+.pageContainer .infoContainer h1 span {
   font-weight: 900;
   font-size: 2em;
   color: aliceblue;
@@ -93,20 +93,43 @@ header ul li a #contactIco {
   font-family: "League Spartan", sans-serif;
 }
 
-.firstpage .infoContainer h1 span:nth-child(1) {
+.pageContainer .infoContainer h1 span:nth-child(1) {
   font-size: 2.5em;
 }
 
-.firstpage .infoContainer h1 span:nth-child(2),
-.firstpage .infoContainer h1 span:nth-child(3),
-.firstpage .infoContainer h1 span:nth-child(4) {
+.pageContainer .infoContainer h1 span:nth-child(2),
+.pageContainer .infoContainer h1 span:nth-child(3),
+.pageContainer .infoContainer h1 span:nth-child(4) {
   padding-left: 20px;
 }
-.firstpage .infoContainer h1 span:nth-child(4) {
+.pageContainer .infoContainer h1 span:nth-child(4) {
   color: rgb(27, 179, 226);
   text-shadow: 0.1vw 0vw 0.25vw #d8f1ff, 0.2vw 0vw 0.25vw #d8f1ff,
     0.1vw 0vw 0vw #57b9f2, 0.2vw 0vw 0vw #57b9f2, 0.1vw 0vw 0.1vw #57c1f2,
     0.2vw 0vw 0.1vw #57b9f2, 0.1vw 0vw 2vw #57c6f2, 0.2vw 0vw 2vw #57c1f2,
     0.1vw 0vw 1vw #0bb2e5, 0.2vw 0vw 1vw #0ba7e5, 0.1vw 0vw 5vw #0ba7e5,
     0.2vw 0vw 20vw #0bb9e5, 0.1vw 0vw 10vw #0b95e5, 0.2vw 0vw 30vw #0ba7e5;
+}
+
+.pageContainer .titleContainer p {
+  padding-top: 35px;
+  margin-left: -20px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  color: #a8a8a8;
+}
+.pageContainer .titleContainer span {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  color: #a8a8a8;
+}
+
+.pageContainer .titleContainer span:hover {
+  font-weight: 900;
+  color: rgb(27, 226, 209);
+  text-shadow: 0.1vw 0vw 0.25vw #d8fffd, 0.2vw 0vw 0.25vw #d8feff,
+    0.1vw 0vw 0vw #57edf2, 0.2vw 0vw 0vw #57f2f2, 0.1vw 0vw 0.1vw #57f2f2,
+    0.2vw 0vw 0.1vw #57f2f2, 0.1vw 0vw 2vw #57f2dd, 0.2vw 0vw 2vw #57f2dd,
+    0.1vw 0vw 1vw #0be5d3, 0.2vw 0vw 1vw #0be5da, 0.1vw 0vw 5vw #0be5d3,
+    0.2vw 0vw 20vw #0be5da, 0.1vw 0vw 10vw #0be5c1, 0.2vw 0vw 30vw #0be5d3;
 }
