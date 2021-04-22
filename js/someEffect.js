@@ -70,10 +70,16 @@ $(function () {
     loop: true,
     endDelay: 1000,
   });
-  var infElem = document.getElementById("infoContainer");
   var infoAni = anime({
-    targets: infElem,
+    targets: document.getElementById("infName"),
     delay: 500,
+    translateX: [-1000, 0],
+    direction: "normal",
+    easing: "easeOutElastic(1, .8)",
+  });
+  var infoAni = anime({
+    targets: document.getElementById("titleContainer"),
+    delay: 700,
     translateX: [-1000, 0],
     direction: "normal",
     easing: "easeOutElastic(1, .8)",
