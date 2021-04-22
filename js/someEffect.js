@@ -2,6 +2,10 @@ $(function () {
   var scene = document.getElementById("scene");
   var parallaxInstance = new Parallax(scene, {
     relativeInput: true,
+  });
+  var subScene = document.getElementById("lines");
+  var parallaxInstance2 = new Parallax(subScene, {
+    relativeInput: true,
     hoverOnly: true,
   });
   var typed = new Typed("#typed", {
