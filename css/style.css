@@ -65,7 +65,7 @@ header ul li a:hover {
   background-color: aliceblue;
   color: black;
   border-radius: 20px;
-  transition: 500ms;
+  transition: 250ms;
 }
 header ul li a #contactIco {
   padding-right: 5px;
