@@ -1,0 +1,22 @@
+{
+  "1": {
+    "name": "Facebook",
+    "icon": "fab fa-facebook-square",
+    "link": "https://fb.com//vcreativeix"
+  },
+  "2": {
+    "name": "Discord",
+    "icon": "fab fa-discord",
+    "link": "https://discordapp.com/users/Hydratrion#2088"
+  },
+  "3": {
+    "name": "Telegram",
+    "icon": "fab fa-telegram-plane",
+    "link": "https://t.me/Macgia99"
+  },
+  "4": {
+    "name": "Linkedin",
+    "icon": "fab fa-linkedin",
+    "link": "https://www.linkedin.com/in/vcreativeix/"
+  }
+}

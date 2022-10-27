@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+@import url("http://fonts.cdnfonts.com/css/league-spartan");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open sans", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(#241616, #0c1c31);
+}
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 10px 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 15vh;
+}
+header .aGreeting {
+  color: aliceblue;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(27, 226, 226);
+  text-shadow: 0.1vw 0vw 0vw #57b9f2, 0.2vw 0vw 0vw #57b9f2,
+    0.1vw 0vw 0.1vw #57c1f2, 0.2vw 0vw 0.1vw #57b9f2, 0.1vw 0vw 2vw #57c6f2,
+    0.2vw 0vw 2vw #57c1f2, 0.1vw 0vw 1vw #0bb2e5, 0.2vw 0vw 1vw #0ba7e5,
+    0.1vw 0vw 5vw #0ba7e5;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 1em;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header ul li a span {
+  display: none;
+}
+header ul li a:hover span {
+  display: flex;
+}
+header ul li a:hover {
+  border-radius: 20px;
+  transition: 250ms;
+  color: rgb(27, 226, 226);
+  text-shadow: 0.1vw 0vw 0.25vw #d8f1ff, 0.2vw 0vw 0.25vw #d8f1ff,
+    0.1vw 0vw 0vw #57b9f2, 0.2vw 0vw 0vw #57b9f2, 0.1vw 0vw 0.1vw #57c1f2,
+    0.2vw 0vw 0.1vw #57b9f2, 0.1vw 0vw 2vw #57c6f2, 0.2vw 0vw 2vw #57c1f2,
+    0.1vw 0vw 1vw #0bb2e5, 0.2vw 0vw 1vw #0ba7e5, 0.1vw 0vw 5vw #0ba7e5,
+    0.2vw 0vw 20vw #0bb9e5, 0.1vw 0vw 10vw #0b95e5, 0.2vw 0vw 30vw #0ba7e5;
+}
+header ul li a #contactIco {
+  padding-right: 5px;
+  font-size: 2em;
+}
+
+.pageContainer {
+  padding: 0px 100px 30px 100px;
+  align-items: center;
+  justify-content: center;
+}
+.theBegin {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 56.25rem) {
+  .theBegin {
+    flex-direction: column;
+    align-items: center;
+  }
+  .infoContainer {
+    padding-bottom: 50px;
+    flex: 100%;
+  }
+  .sideContainer {
+    flex: 100%;
+    width: 70vw;
+  }
+  .pageContainer {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .sideContainer .logoimg {
+    width: 40%;
+    height: 40%;
+  }
+  header ul {
+  }
+  header .aGreeting {
+    display: none;
+  }
+  header ul li a:hover span {
+    display: none;
+  }
+}
+.infoContainer {
+  max-width: 30vw;
+  padding-top: 30px;
+  flex: 50%;
+}
+.infoContainer h1,
+.infoContainer h1 span {
+  font-weight: 900;
+  font-size: 2em;
+  color: aliceblue;
+  text-shadow: none;
+  font-family: "League Spartan", sans-serif;
+}
+
+.infoContainer h1 span:nth-child(1) {
+  font-size: 2.5em;
+}
+
+.infoContainer h1 span:nth-child(2),
+.infoContainer h1 span:nth-child(3),
+.infoContainer h1 span:nth-child(4) {
+  padding-left: 20px;
+}
+.infoContainer h1 span:nth-child(4) {
+  color: rgb(27, 226, 226);
+  text-shadow: 0.1vw 0vw 0.25vw #d8f1ff, 0.2vw 0vw 0.25vw #d8f1ff,
+    0.1vw 0vw 0vw #57b9f2, 0.2vw 0vw 0vw #57b9f2, 0.1vw 0vw 0.1vw #57c1f2,
+    0.2vw 0vw 0.1vw #57b9f2, 0.1vw 0vw 2vw #57c6f2, 0.2vw 0vw 2vw #57c1f2,
+    0.1vw 0vw 1vw #0bb2e5, 0.2vw 0vw 1vw #0ba7e5, 0.1vw 0vw 5vw #0ba7e5,
+    0.2vw 0vw 20vw #0bb9e5, 0.1vw 0vw 10vw #0b95e5, 0.2vw 0vw 30vw #0ba7e5;
+}
+
+.titleContainer p {
+  padding-top: 35px;
+  padding-bottom: 15px;
+  margin-left: -20px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  color: #a8a8a8;
+}
+.titleContainer span {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  color: #a8a8a8;
+}
+
+.titleContainer span:hover,
+.titleContainer span.active {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #1be2d1;
+  padding: 10px;
+  text-shadow: 0.1vw 0vw 0.25vw #d8fffd, 0.2vw 0vw 0.25vw #d8feff,
+    0.1vw 0vw 0vw #57edf2, 0.2vw 0vw 0vw #57f2f2, 0.1vw 0vw 0.1vw #57f2f2,
+    0.2vw 0vw 0.1vw #57f2f2, 0.1vw 0vw 2vw #57f2dd, 0.2vw 0vw 2vw #57f2dd,
+    0.1vw 0vw 1vw #0be5d3, 0.2vw 0vw 1vw #0be5da, 0.1vw 0vw 5vw #0be5d3,
+    0.2vw 0vw 20vw #0be5da, 0.1vw 0vw 10vw #0be5c1, 0.2vw 0vw 30vw #0be5d3;
+}
+.sideContainer {
+  max-width: 70vw;
+  max-height: 100vh;
+}
+
+.sideContainer .logoimg g.lines {
+  stroke: #56f5e8;
+  stroke-width: 4px;
+}
+.sideContainer .logoimg path {
+  object-fit: contain;
+  fill: #1be2d1;
+  fill-opacity: 0%;
+}
+
+.sideContainer .logoimg {
+  width: 34.4rem;
+  height: 34.4rem;
+  opacity: 100%;
+  overflow: visible;
+}
