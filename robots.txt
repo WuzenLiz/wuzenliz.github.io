@@ -1,1 +1,7 @@
-Hello hacker lỏ, địt con mẹ mày luôn ấy. 
+# robots.txt for wuzenliz.github.io
+User-agent: *
+Disallow: /img.backup/
+Disallow: /_site/
+
+# Sitemap
+Sitemap: https://wuzenliz.github.io/sitemap.xml
