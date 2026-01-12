@@ -3,11 +3,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hoang Nguyen - UI/UX Designer, Freelancer, Markup Engineer, and AI Developer. Portfolio showcasing my creative work and projects." />
+    <meta name="author" content="Hoang Nguyen" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Hoang Nguyen's Portfolio" />
+    <meta property="og:description" content="UI/UX Designer, Freelancer, Markup Engineer, and AI Developer" />
+    <meta property="og:url" content="https://wuzenliz.github.io" />
+    
     <link rel="icon" type="image/png" href="./img/Logo.png" />
-    <title>Hoang nguyen's Portfolio</title>
+    <title>Hoang Nguyen's Portfolio - UI/UX Designer & Developer</title>
+    
+    <!-- Preconnect to external domains for better performance -->
+    <link rel="preconnect" href="https://pro.fontawesome.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
     <!-- Css -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" src="./css/menu.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -21,11 +38,10 @@
   </head>
   <body data-barba="wrapper">
     <header>
-      <a href="./" class="aGreeting">
+      <a href="./" class="aGreeting" aria-label="Homepage greeting">
         <span id="typed"></span>
       </a>
-      <!-- <div class="greeting"></div> -->
-      <ul id="contactCon"></ul>
+      <ul id="contactCon" role="navigation" aria-label="Social media links"></ul>
     </header>
     <div class="wrapper">
       <main
@@ -57,6 +73,10 @@
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 963.59523 980.68443"
                 class="logoIMG"
+                role="img"
+                aria-label="Portfolio logo"
+                width="550"
+                height="550"
               >
                 <g
                   fill="none"
@@ -102,19 +122,19 @@
           </div>
         </div>
       </main>
-      <div class="page-indiactor-container">
+      <nav class="page-indiactor-container" aria-label="Page navigation">
         <ol class="page-indiactor">
           <li class="neon-light-box2 active">
-            <a href="#"></a>
+            <a href="#" aria-label="Page 1" aria-current="page"></a>
           </li>
           <li class="neon-light-box2">
-            <a href="#"></a>
+            <a href="#" aria-label="Page 2"></a>
           </li>
           <li class="neon-light-box2">
-            <a href="#"></a>
+            <a href="#" aria-label="Page 3"></a>
           </li>
         </ol>
-      </div>
+      </nav>
     </div>
     <div id="fb-root"></div>
 
@@ -147,21 +167,22 @@
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
-    <!-- Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+    <!-- Javascript - Load with async/defer for better performance -->
+    <script defer src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
     <script
+      defer
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
       integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
-    <script src="./js/someEffect.js"></script>
-    <script src="./js/contract.js"></script>
-    <script src="./js/hometransaction.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script defer src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+    <script defer src="./js/someEffect.js"></script>
+    <script defer src="./js/contract.js"></script>
+    <script defer src="./js/hometransaction.js"></script>
     <!-- end -->
   </body>
 </html>
