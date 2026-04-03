@@ -2,6 +2,7 @@
 User-agent: *
 Disallow: /img.backup/
 Disallow: /_site/
+Allow: /odyssey.pdf
 
 # Sitemap
 Sitemap: https://wuzenliz.github.io/sitemap.xml
