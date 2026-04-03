@@ -18,5 +18,10 @@
     "name": "Linkedin",
     "icon": "fab fa-linkedin",
     "link": "https://www.linkedin.com/in/vcreativeix/"
+  },
+  "5": {
+    "name": "Odyssey",
+    "icon": "fas fa-file-pdf",
+    "link": "./odyssey.pdf"
   }
 }
