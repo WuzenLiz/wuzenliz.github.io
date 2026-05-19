@@ -2,6 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap");
+
 *{
  margin:0;
  padding:0;
@@ -11,7 +13,7 @@
 
 body{
  min-height:100vh;
- background:linear-gradient(#241616, #0c1c31);
+ background:linear-gradient(#0F1018, #14131B);
 }
 
 header{
@@ -33,11 +35,11 @@ header .aGreeting{
  font-size:1.5em;
  text-transform:uppercase;
  letter-spacing:2px;
- color:rgb(27, 226, 226);
- text-shadow:0.1vw 0vw 0vw #57b9f2, 0.2vw 0vw 0vw #57b9f2,
- 0.1vw 0vw 0.1vw #57c1f2, 0.2vw 0vw 0.1vw #57b9f2, 0.1vw 0vw 2vw #57c6f2,
- 0.2vw 0vw 2vw #57c1f2, 0.1vw 0vw 1vw #0bb2e5, 0.2vw 0vw 1vw #0ba7e5,
- 0.1vw 0vw 5vw #0ba7e5;
+ color:#B5B0BD;
+ text-shadow:0.1vw 0vw 0vw #B5B0BD, 0.2vw 0vw 0vw #B5B0BD,
+ 0.1vw 0vw 0.1vw #7B82C4, 0.2vw 0vw 0.1vw #B5B0BD, 0.1vw 0vw 2vw #5C629F,
+ 0.2vw 0vw 2vw #7B82C4, 0.1vw 0vw 1vw #3D4280, 0.2vw 0vw 1vw #3D4280,
+ 0.1vw 0vw 5vw #3D4280;
 }
 
 header ul{
@@ -54,7 +56,7 @@ header ul li{
 header ul li a{
  text-decoration:none;
  padding:6px 15px;
- color:aliceblue;
+ color:#F2EDF5;
  font-weight:500;
  font-size:1em;
  display:-webkit-box;
@@ -77,12 +79,12 @@ header ul li a:hover span{
  header ul li a:hover{
  border-radius:20px;
  transition:250ms;
- color:rgb(27, 226, 226);
- text-shadow:0.1vw 0vw 0.25vw #d8f1ff, 0.2vw 0vw 0.25vw #d8f1ff,
- 0.1vw 0vw 0vw #57b9f2, 0.2vw 0vw 0vw #57b9f2, 0.1vw 0vw 0.1vw #57c1f2,
- 0.2vw 0vw 0.1vw #57b9f2, 0.1vw 0vw 2vw #57c6f2, 0.2vw 0vw 2vw #57c1f2,
- 0.1vw 0vw 1vw #0bb2e5, 0.2vw 0vw 1vw #0ba7e5, 0.1vw 0vw 5vw #0ba7e5,
- 0.2vw 0vw 20vw #0bb9e5, 0.1vw 0vw 10vw #0b95e5, 0.2vw 0vw 30vw #0ba7e5;
+ color:#E0C7D7;
+ text-shadow:0.1vw 0vw 0.25vw #E0C7D7, 0.2vw 0vw 0.25vw #E0C7D7,
+ 0.1vw 0vw 0vw #B5B0BD, 0.2vw 0vw 0vw #B5B0BD, 0.1vw 0vw 0.1vw #7B82C4,
+ 0.2vw 0vw 0.1vw #7B82C4, 0.1vw 0vw 2vw #5C629F, 0.2vw 0vw 2vw #5C629F,
+ 0.1vw 0vw 1vw #3D4280, 0.2vw 0vw 1vw #3D4280, 0.1vw 0vw 5vw #3D4280,
+ 0.2vw 0vw 20vw #3D4280, 0.1vw 0vw 10vw #3D4280, 0.2vw 0vw 30vw #3D4280;
 }
 
 header ul li a #contactIco{
@@ -150,9 +152,9 @@ header ul li a #contactIco{
 .infoContainer h1 span{
  font-weight:900;
  font-size:3em;
- color:aliceblue;
+ color:#F2EDF5;
  text-shadow:none;
- font-family:"League Spartan", sans-serif;
+ font-family:"Cormorant Garamond", "League Spartan", serif;
 }
 
 .infoContainer h1 span:nth-child(1){
@@ -166,12 +168,12 @@ header ul li a #contactIco{
 }
 
 .infoContainer h1 span:nth-child(4){
- color:rgb(27, 226, 226);
- text-shadow:0.1vw 0vw 0.25vw #d8f1ff, 0.2vw 0vw 0.25vw #d8f1ff,
- 0.1vw 0vw 0vw #57b9f2, 0.2vw 0vw 0vw #57b9f2, 0.1vw 0vw 0.1vw #57c1f2,
- 0.2vw 0vw 0.1vw #57b9f2, 0.1vw 0vw 2vw #57c6f2, 0.2vw 0vw 2vw #57c1f2,
- 0.1vw 0vw 1vw #0bb2e5, 0.2vw 0vw 1vw #0ba7e5, 0.1vw 0vw 5vw #0ba7e5,
- 0.2vw 0vw 20vw #0bb9e5, 0.1vw 0vw 10vw #0b95e5, 0.2vw 0vw 30vw #0ba7e5;
+ color:#E0C7D7;
+ text-shadow:0.1vw 0vw 0.25vw #E0C7D7, 0.2vw 0vw 0.25vw #E0C7D7,
+ 0.1vw 0vw 0vw #B5B0BD, 0.2vw 0vw 0vw #B5B0BD, 0.1vw 0vw 0.1vw #7B82C4,
+ 0.2vw 0vw 0.1vw #7B82C4, 0.1vw 0vw 2vw #5C629F, 0.2vw 0vw 2vw #5C629F,
+ 0.1vw 0vw 1vw #3D4280, 0.2vw 0vw 1vw #3D4280, 0.1vw 0vw 5vw #3D4280,
+ 0.2vw 0vw 20vw #3D4280, 0.1vw 0vw 10vw #3D4280, 0.2vw 0vw 30vw #3D4280;
 }
 
 .titleContainer p{
@@ -180,26 +182,26 @@ header ul li a #contactIco{
  margin-left:-20px;
  font-family:"League Spartan", sans-serif;
  font-weight:600;
- color:#a8a8a8;
+ color:#B5B0BD;
 }
 
 .titleContainer span{
  font-family:"League Spartan", sans-serif;
  font-weight:600;
- color:#a8a8a8;
+ color:#B5B0BD;
 }
 
 .titleContainer span:hover,
 .titleContainer span.active{
  text-transform:uppercase;
  font-weight:900;
- color:#1be2d1;
+ color:#E0C7D7;
  padding:10px;
- text-shadow:0.1vw 0vw 0.25vw #d8fffd, 0.2vw 0vw 0.25vw #d8feff,
- 0.1vw 0vw 0vw #57edf2, 0.2vw 0vw 0vw #57f2f2, 0.1vw 0vw 0.1vw #57f2f2,
- 0.2vw 0vw 0.1vw #57f2f2, 0.1vw 0vw 2vw #57f2dd, 0.2vw 0vw 2vw #57f2dd,
- 0.1vw 0vw 1vw #0be5d3, 0.2vw 0vw 1vw #0be5da, 0.1vw 0vw 5vw #0be5d3,
- 0.2vw 0vw 20vw #0be5da, 0.1vw 0vw 10vw #0be5c1, 0.2vw 0vw 30vw #0be5d3;
+ text-shadow:0.1vw 0vw 0.25vw #E0C7D7, 0.2vw 0vw 0.25vw #E0C7D7,
+ 0.1vw 0vw 0vw #B5B0BD, 0.2vw 0vw 0vw #B5B0BD, 0.1vw 0vw 0.1vw #7B82C4,
+ 0.2vw 0vw 0.1vw #7B82C4, 0.1vw 0vw 2vw #5C629F, 0.2vw 0vw 2vw #5C629F,
+ 0.1vw 0vw 1vw #3D4280, 0.2vw 0vw 1vw #3D4280, 0.1vw 0vw 5vw #3D4280,
+ 0.2vw 0vw 20vw #3D4280, 0.1vw 0vw 10vw #3D4280, 0.2vw 0vw 30vw #3D4280;
 }
 
 .sideContainer{
@@ -210,13 +212,13 @@ header ul li a #contactIco{
 }
 
 .sideContainer .logoimg g.lines{
- stroke:#6ef7eb;
+ stroke:#B5B0BD;
  stroke-width:8px;
 }
 
 .sideContainer .logoimg path{
  object-fit:contain;
- fill:#1be2d1;
+ fill:#5C629F;
  fill-opacity:0%;
 }
 
@@ -257,7 +259,7 @@ div.Sence2Container{
  width:10px;
  height:10px;
  border-radius:50%;
- background-color:#1be2d1;
+ background-color:#5C629F;
  margin:5 5px;
  transition:all 0.5s ease;
  opacity:0.5;
@@ -268,34 +270,34 @@ div.Sence2Container{
 }
 
 .neon-light-text{
- text-shadow:0.1vw 0vw 0.25vw #d8fffd, 0.2vw 0vw 0.25vw #d8feff,
- 0.1vw 0vw 0vw #57edf2, 0.2vw 0vw 0vw #57f2f2, 0.1vw 0vw 0.1vw #57f2f2,
- 0.2vw 0vw 0.1vw #57f2f2, 0.1vw 0vw 2vw #57f2dd, 0.2vw 0vw 2vw #57f2dd,
- 0.1vw 0vw 1vw #0be5d3, 0.2vw 0vw 1vw #0be5da, 0.1vw 0vw 5vw #0be5d3,
- 0.2vw 0vw 20vw #0be5da, 0.1vw 0vw 10vw #0be5c1, 0.2vw 0vw 30vw #0be5d3;
- color:#57edf2;
+ text-shadow:0.1vw 0vw 0.25vw #E0C7D7, 0.2vw 0vw 0.25vw #E0C7D7,
+ 0.1vw 0vw 0vw #B5B0BD, 0.2vw 0vw 0vw #B5B0BD, 0.1vw 0vw 0.1vw #7B82C4,
+ 0.2vw 0vw 0.1vw #7B82C4, 0.1vw 0vw 2vw #5C629F, 0.2vw 0vw 2vw #5C629F,
+ 0.1vw 0vw 1vw #3D4280, 0.2vw 0vw 1vw #3D4280, 0.1vw 0vw 5vw #3D4280,
+ 0.2vw 0vw 20vw #3D4280, 0.1vw 0vw 10vw #3D4280, 0.2vw 0vw 30vw #3D4280;
+ color:#B5B0BD;
 }
 .neon-light-text2{
- text-shadow:0.1vw 0vw 0.25vw #d8f1ff, 0.2vw 0vw 0.25vw #d8f1ff,
- 0.1vw 0vw 0vw #57b9f2, 0.2vw 0vw 0vw #57b9f2, 0.1vw 0vw 0.1vw #57c1f2,
- 0.2vw 0vw 0.1vw #57b9f2, 0.1vw 0vw 2vw #57c6f2, 0.2vw 0vw 2vw #57c1f2,
- 0.1vw 0vw 1vw #0bb2e5, 0.2vw 0vw 1vw #0ba7e5, 0.1vw 0vw 5vw #0ba7e5,
- 0.2vw 0vw 20vw #0bb9e5, 0.1vw 0vw 10vw #0b95e5, 0.2vw 0vw 30vw #0ba7e5;
- color:#57b9f2;
+ text-shadow:0.1vw 0vw 0.25vw #E0C7D7, 0.2vw 0vw 0.25vw #E0C7D7,
+ 0.1vw 0vw 0vw #B5B0BD, 0.2vw 0vw 0vw #B5B0BD, 0.1vw 0vw 0.1vw #7B82C4,
+ 0.2vw 0vw 0.1vw #7B82C4, 0.1vw 0vw 2vw #5C629F, 0.2vw 0vw 2vw #5C629F,
+ 0.1vw 0vw 1vw #3D4280, 0.2vw 0vw 1vw #3D4280, 0.1vw 0vw 5vw #3D4280,
+ 0.2vw 0vw 20vw #3D4280, 0.1vw 0vw 10vw #3D4280, 0.2vw 0vw 30vw #3D4280;
+ color:#B5B0BD;
 }
 .neon-light-box{
- box-shadow:0.1vw 0vw 0.25vw #d8fffd, 0.2vw 0vw 0.25vw #d8feff,
- 0.1vw 0vw 0vw #57edf2, 0.2vw 0vw 0vw #57f2f2, 0.1vw 0vw 0.1vw #57f2f2,
- 0.2vw 0vw 0.1vw #57f2f2, 0.1vw 0vw 2vw #57f2dd, 0.2vw 0vw 2vw #57f2dd,
- 0.1vw 0vw 1vw #0be5d3, 0.2vw 0vw 1vw #0be5da, 0.1vw 0vw 5vw #0be5d3,
- 0.2vw 0vw 20vw #0be5da, 0.1vw 0vw 10vw #0be5c1, 0.2vw 0vw 30vw #0be5d3;
+ box-shadow:0.1vw 0vw 0.25vw #E0C7D7, 0.2vw 0vw 0.25vw #E0C7D7,
+ 0.1vw 0vw 0vw #B5B0BD, 0.2vw 0vw 0vw #B5B0BD, 0.1vw 0vw 0.1vw #7B82C4,
+ 0.2vw 0vw 0.1vw #7B82C4, 0.1vw 0vw 2vw #5C629F, 0.2vw 0vw 2vw #5C629F,
+ 0.1vw 0vw 1vw #3D4280, 0.2vw 0vw 1vw #3D4280, 0.1vw 0vw 5vw #3D4280,
+ 0.2vw 0vw 20vw #3D4280, 0.1vw 0vw 10vw #3D4280, 0.2vw 0vw 30vw #3D4280;
 }
 .neon-light-box2{
- box-shadow:0.1vw 0vw 0.25vw #d8f1ff, 0.2vw 0vw 0.25vw #d8f1ff,
- 0.1vw 0vw 0vw #57b9f2, 0.2vw 0vw 0vw #57b9f2, 0.1vw 0vw 0.1vw #57c1f2,
- 0.2vw 0vw 0.1vw #57b9f2, 0.1vw 0vw 2vw #57c6f2, 0.2vw 0vw 2vw #57c1f2,
- 0.1vw 0vw 1vw #0bb2e5, 0.2vw 0vw 1vw #0ba7e5, 0.1vw 0vw 5vw #0ba7e5,
- 0.2vw 0vw 20vw #0bb9e5, 0.1vw 0vw 10vw #0b95e5, 0.2vw 0vw 30vw #0ba7e5;
+ box-shadow:0.1vw 0vw 0.25vw #E0C7D7, 0.2vw 0vw 0.25vw #E0C7D7,
+ 0.1vw 0vw 0vw #B5B0BD, 0.2vw 0vw 0vw #B5B0BD, 0.1vw 0vw 0.1vw #7B82C4,
+ 0.2vw 0vw 0.1vw #7B82C4, 0.1vw 0vw 2vw #5C629F, 0.2vw 0vw 2vw #5C629F,
+ 0.1vw 0vw 1vw #3D4280, 0.2vw 0vw 1vw #3D4280, 0.1vw 0vw 5vw #3D4280,
+ 0.2vw 0vw 20vw #3D4280, 0.1vw 0vw 10vw #3D4280, 0.2vw 0vw 30vw #3D4280;
 }
 
 @keyframes fadeIn{
@@ -311,5 +313,5 @@ div.Sence2Container{
  -webkit-animation:neon .75s ease-in-out infinite alternate;
  -moz-animation:neon 0.75s ease-in-out infinite alternate;
  animation:neon 0.75s ease-in-out infinite alternate;
- filter:drop-shadow(0 0 0.75rem #56f5e8);
+ filter:drop-shadow(0 0 0.75rem #5C629F);
 }
